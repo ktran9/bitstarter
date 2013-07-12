@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var content;
 
-fs.readFileSync('./index.html', function(err, data) {
+fs.readFileSync('index.html', function(err, data) {
   if(err) throw err;
   content = data;
 });
